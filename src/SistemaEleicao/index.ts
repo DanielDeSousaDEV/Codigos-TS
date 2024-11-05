@@ -25,7 +25,11 @@ let Presidencia = new Poll(
 )
 
 Marcos.voteInAPoll(Presidencia, Gabriel)
+Moises.voteInAPoll(Presidencia, Gabriel)
+Presidencia.showResults()
+Presidencia.finishPoll()
 Marcos.voteInAPoll(Presidencia, Gabriel)
 
-console.log(JSON.stringify(Presidencia, null, 2))
+// console.log(JSON.stringify(Presidencia, null, 2))
 console.log();
+Presidencia.showResults()

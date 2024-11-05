@@ -1,7 +1,7 @@
 import { Poll } from "./Poll";
 export class User{
     constructor (
-        public Id:number,
+        private Id:number,
         public name: string
     ){}
 

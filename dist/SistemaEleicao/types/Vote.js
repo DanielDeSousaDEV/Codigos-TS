@@ -6,5 +6,11 @@ class Vote {
         this.Voter = Voter;
         this.Candidate = Candidate;
     }
+    getCandidate() {
+        return this.Candidate;
+    }
+    getVoter() {
+        return this.Voter;
+    }
 }
 exports.Vote = Vote;
